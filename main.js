@@ -60,7 +60,8 @@ function postToGyazo(data) {
       referer_url: data.url,
       width: data.width || '',
       height: data.height || '',
-      scale: data.scale || ''
+      scale: data.scale || '',
+      app: 'Google Chrome'
     },
     crossDomain: true
   })
